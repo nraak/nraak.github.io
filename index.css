@@ -1,12 +1,12 @@
-@keyframes example {
+@keyframes myAnimationKeyFrame {
 	from {background-color: red;}
 	to {background-color: yellow;}
 }
-div {
+myAnimation {
 	width: 100px;
 	height: 100px;
 	background-color: red;
-	animation-name: example;
+	animation-name: myAnimationKeyFrame;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
 }
