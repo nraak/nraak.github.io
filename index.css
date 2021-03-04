@@ -1,12 +1,13 @@
-@keyframes myAnimationKeyFrame {
+@keyframes redToYellow {
 	from {background-color: red;}
 	to {background-color: yellow;}
 }
-myAnimation {
+
+#animated {
 	width: 100px;
 	height: 100px;
 	background-color: red;
-	animation-name: myAnimationKeyFrame;
+	animation-name: redToYellow;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
 }
