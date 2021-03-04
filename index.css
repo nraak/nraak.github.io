@@ -11,3 +11,9 @@
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
 }
+html, body {
+	padding: 0;
+    margin: 0;
+	height: 100vh;
+	width: 100vw;
+}
